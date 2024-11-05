@@ -14,7 +14,6 @@ return new class extends Migration
         Schema::create('tasks', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            // $table->unsignedBigInteger('user_id')->default(0);
             $table->enum('status', ['pending', 'completed'])->default('pending');
             $table->longText('description');
             $table->string('image_path')->nullable();
