@@ -6,7 +6,6 @@
         <ul class="navbar-nav ms-auto">
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    {{-- <img src="{{asset('backend/assets/img/user2-160x160.jpg')}}" class="user-image rounded-circle shadow" alt="User Image"> --}}
                     <i class="bi bi-person-workspace"></i>
                     <span class="d-none d-md-inline">
                         {{Auth::user()->name}}
